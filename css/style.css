@@ -1,0 +1,29 @@
+.logo {
+    color: #2196F3
+}
+.logotyp {
+    font-size: 26px;
+    line-height: 31px;
+    padding-left: 200px;
+    flex-flow: row;
+}
+.posul-logo {
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 16px;
+    padding-left: 50px;
+    
+}
+.social-links.link {
+    color: #2196F3;  
+}
+.social-links .link {
+    color: teal;
+  }
+.social-links .link:hover,
+.social-links .link:focus {
+    color: orange;
+}
+.social-links .link:active {
+  color: red;
+  }
