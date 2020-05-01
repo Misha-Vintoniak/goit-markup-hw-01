@@ -1,29 +1,285 @@
+*{
+    padding: 0px;
+    box-sizing: border-box;
+}
+.wraper {
+    font-family: 'Roboto', sans-serif;
+    margin-right: 200px;
+    margin-left: 200px;
+    max-width: 1600px;
+}
+.li {
+    list-style: none;
+}
+.nav {
+    display: flex;
+    width: 1600px;
+    height: 80px;
+    margin-top: 24px;
+}
+.nav-link {
+    display: flex;
+    margin-left: 85px;
+    margin-right: 334px;
+    list-style: none;
+    margin-top: 2px;
+    }
+.nav-line {
+    margin-top: 5px;
+    display: flex;
+    list-style: none;
+}
+.nav-mail {
+    content: url(../img/mail.svg);
+    margin-right: 10px;
+    list-style: none;
+    margin-top: 5px;
+}
+.tell{
+    content: url(../img/mobile.svg);
+    margin-right: 10px;
+    margin-left: 30px;
+}
 .logo {
     color: #2196F3
 }
 .logotyp {
     font-size: 26px;
     line-height: 31px;
-    padding-left: 200px;
     flex-flow: row;
+    
 }
 .posul-logo {
     font-weight: 500;
     font-size: 14px;
     line-height: 16px;
-    padding-left: 50px;
-    
+    padding-right: 50px;  
+    list-style: none;
 }
-.social-links.link {
-    color: #2196F3;  
+.banner {
+    text-align: center;
+    width: 1600px;
+    height: 600px;
+    background-image: url(../img/Goit.png);
+    box-sizing: border-box;
+    margin-left: -200px;
+    margin-right: -200px;
+    margin-bottom: 95px;
 }
+.banner-title {
+    font-weight: 900;
+    font-size: 44px;
+    line-height: 60px;
+    width: 640px;
+    height: 100px;
+    margin-left: 477px;
+    text-align: center;
+    padding-top: 200px;
+    padding-bottom: 46px;
+}
+.zakaz {
+    font-size: 16px;
+    line-height: 30px;
+    display: inline-block;
+    text-align: center;
+    width: 200px;
+    height: 50px;
+    margin-bottom: 200px;
+    margin-top: 46px;
+    }
+    .zanyattya {
+    width: 1201px;
+    height: 251px;
+    margin-bottom: 94px;
+    }
+.antena {
+    content: url(../img/Antena.svg);
+    width: 278px;
+    height: 120px;
+    background: #F5F4FA;
+    border-radius: 4px;
+    margin-right: 30px;
+    box-sizing: border-box;
+}
+.clock {
+    content: url(../img/Logo_clock.svg);
+    width: 278px;
+    height: 120px;
+    background: #F5F4FA;
+    border-radius: 4px;
+    margin-right: 30px;
+    box-sizing: border-box;
+}
+.computer {
+    content: url(../img/logo_computer.svg);
+    width: 278px;
+    height: 120px;
+    background: #F5F4FA;
+    margin-right: 30px;
+    border-radius: 4px;
+    box-sizing: border-box;
+}
+.astronaut {
+    content: url(../img/astronaut.svg);
+    width: 278px;
+    height: 120px;
+    background: #F5F4FA;
+    border-radius: 4px;
+    box-sizing: border-box;
+}
+.antena-title {
+    font-size: 14px;
+    line-height: 16px;
+    color: #212121;
+}
+.text {
+    font-size: 14px;
+    line-height: 24px;
+    color: #757575;
+    margin-top: 10px;
+    width: 278px;
+    height: 75px;
+}
+.social-links{
+    display: flex;
+   }
+
 .social-links .link {
-    color: teal;
+    color: #AFB1B8;
   }
-.social-links .link:hover,
-.social-links .link:focus {
-    color: orange;
+.komand .social-links:hover,
+.komand .social-links:focus {
+    color: #2196F3;
 }
 .social-links .link:active {
   color: red;
   }
+.line {
+    display: flex;
+    list-style: none;
+    padding-top: 94px;
+    background-color: ;
+}
+.riwennya {
+    width: 1200px;
+    height: 386px;
+    margin-bottom: 95px;
+    padding-top: 95px;
+}
+.riwennya-title {
+font-size: 36px;
+line-height: 42px;
+text-align: center;
+color: #212121;
+padding-top: 50px;
+}
+.leptop {
+    width: 380px ;
+    height: 294px;
+    background-image: url(../img/leptop.png);
+    text-align: center;
+    text-transform: uppercase;
+    font-weight: bold;
+    color: #FFFFFF;
+    padding-top:  224px;
+    box-sizing: border-box;
+    }
+  .box {
+    width: 380px ;
+    height: 295px;
+    background-image: url(../img/box.png);
+    margin-left: 30px;
+    margin-right: 30px;
+    text-align: center;
+    text-transform: uppercase;
+    font-weight: bold;
+    color: #FFFFFF;
+    padding-top:  224px;
+    box-sizing: border-box;
+    }
+  .screen {
+    width: 380px ;
+    height: 295px;
+    background-image: url(../img/screen.png);
+    text-align: center;
+    text-transform: uppercase;
+    font-weight: bold;
+    color: #FFFFFF;
+    padding-top:  224px;
+    box-sizing: border-box;
+    }
+ .nawa-komanda {
+    background: #F5F4FA;
+    height: 702px;
+    margin-top: 94px;
+    
+ }
+    .komand{
+    margin: 50px 15px 50px 15px;
+ }
+ .punkt {
+    background: rgba(47, 48, 58, 0.8);
+    border-radius: 0px 0px 4px 4px;
+    position: absolute;
+    width: 380px;
+    height: 70px;
+    
+ }
+ .link-instagram {
+    content: url(../img/instagram.svg);
+    padding-right: 39px;
+    padding-left: 45px;
+ }
+ .link-twitter{
+    content: url(../img/twitter.png);
+ }
+ .link-facebook {
+    content: url(../img/facebook.svg);
+    padding-left: 40px;
+ }
+ .link-linkedin {
+    content: url(../img/linkedin.svg);
+    padding-right: 45px;
+    padding-left: 39px;
+ }
+ .klienty {
+    display: flex;
+
+ }
+ .ya {
+    content: url(../img/YACO.svg);
+    width: 175px;
+    height: 90px;
+    
+ }
+ .tagline {
+    content: url(../img/tagline.svg);
+    width: 175px;
+    height: 90px;
+    margin-left: 30px;
+ }
+ .company {
+    width: 175px;
+    height: 90px;
+    content: url(../img/company.svg);
+    margin-left: 30px;
+ }
+ .foster{
+    width: 175px;
+    height: 90px;
+    content: url(../img/foster.svg);
+    margin-left: 30px;
+ }
+ .brand{
+    width: 175px;
+    height: 90px;
+    content: url(../img/brand.svg);
+    margin-left: 30px;
+ }
+ .tag {
+    width: 175px;
+    height: 90px;
+    content: url(../img/tag.svg);
+    border: 1px;
+    margin-left: 30px;
+ }
