@@ -1,12 +1,14 @@
 *{
     padding: 0px;
     box-sizing: border-box;
+    text-decoration: none;
 }
 .wraper {
     font-family: 'Roboto', sans-serif;
     margin-right: 200px;
     margin-left: 200px;
     max-width: 1600px;
+    text-decoration: none;
 }
 .li {
     list-style: none;
@@ -23,6 +25,7 @@
     margin-right: 334px;
     list-style: none;
     margin-top: 2px;
+    color: #212121;
     }
 .nav-line {
     margin-top: 5px;
@@ -41,20 +44,24 @@
     margin-left: 30px;
 }
 .logo {
-    color: #2196F3
-}
-.logotyp {
+    color: #000;
     font-size: 26px;
     line-height: 31px;
-    flex-flow: row;
-    
+    text-decoration: none;
+
 }
+.logotyp {
+    flex-flow: row;
+    color: #2196F3;
+    }
 .posul-logo {
     font-weight: 500;
     font-size: 14px;
     line-height: 16px;
     padding-right: 50px;  
     list-style: none;
+    color: #212121;
+
 }
 .banner {
     text-align: center;
@@ -143,35 +150,20 @@
 .social-links{
     display: flex;
    }
-
-.social-links .link {
-    color: #AFB1B8;
-  }
-.komand .social-links:hover,
-.komand .social-links:focus {
-    color: #2196F3;
-}
-.social-links .link:active {
-  color: red;
-  }
 .line {
     display: flex;
     list-style: none;
-    padding-top: 94px;
-    background-color: ;
-}
+    }
 .riwennya {
     width: 1200px;
     height: 386px;
-    margin-bottom: 95px;
-    padding-top: 95px;
-}
+    margin-bottom: 90px;
+    }
 .riwennya-title {
 font-size: 36px;
 line-height: 42px;
 text-align: center;
 color: #212121;
-padding-top: 50px;
 }
 .leptop {
     width: 380px ;
@@ -181,7 +173,7 @@ padding-top: 50px;
     text-transform: uppercase;
     font-weight: bold;
     color: #FFFFFF;
-    padding-top:  224px;
+    padding-top:  205px;
     box-sizing: border-box;
     }
   .box {
@@ -194,7 +186,7 @@ padding-top: 50px;
     text-transform: uppercase;
     font-weight: bold;
     color: #FFFFFF;
-    padding-top:  224px;
+    padding-top:  205px;
     box-sizing: border-box;
     }
   .screen {
@@ -205,81 +197,207 @@ padding-top: 50px;
     text-transform: uppercase;
     font-weight: bold;
     color: #FFFFFF;
-    padding-top:  224px;
+    padding-top:  205px;
     box-sizing: border-box;
     }
+    .punkt {
+        background: rgba(47, 48, 58, 0.8);
+        border-radius: 0px 0px 4px 4px;
+        position: absolute;
+        width: 380px;
+        height: 70px;
+        text-transform: uppercase;
+     }
  .nawa-komanda {
     background: #F5F4FA;
     height: 702px;
     margin-top: 94px;
+    width: 1600px;
+    margin-left: -200px;
     
+ }
+ .komanda-title {
+    font-size: 36px;
+    line-height: 42px;
+    text-align: center;
+    font-weight: bold;
+    padding-top: 94px;
+ }
+ .komand-line {
+    padding-left: 200px;
+    display: flex;
+    list-style: none;
+    width: 1402px;
+    height: 422px;
  }
     .komand{
-    margin: 50px 15px 50px 15px;
+    width: 278px;
+    height: 422px;
+    background: #FFFFFF;
+    box-shadow: 0px 2px 1px rgba(0, 0, 0, 0.2), 0px 1px 1px rgba(0, 0, 0, 0.14), 0px 1px 3px rgba(0, 0, 0, 0.12);
  }
- .punkt {
-    background: rgba(47, 48, 58, 0.8);
-    border-radius: 0px 0px 4px 4px;
-    position: absolute;
-    width: 380px;
-    height: 70px;
-    
+ .komand-name {
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 19px;
+    text-align: center;
  }
+ .komand-text {
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 19px;
+    color: #757575;
+    text-align: center;
+    padding-bottom: 28px;
+    }
  .link-instagram {
     content: url(../img/instagram.svg);
-    padding-right: 39px;
+    padding-right: 14px;
     padding-left: 45px;
  }
  .link-twitter{
     content: url(../img/twitter.png);
+    padding-right: 20px;
+    padding-left: 25px;
  }
  .link-facebook {
     content: url(../img/facebook.svg);
-    padding-left: 40px;
+    padding-left: 20px;
+    padding-right: 25px;
  }
  .link-linkedin {
     content: url(../img/linkedin.svg);
     padding-right: 45px;
-    padding-left: 39px;
+    padding-left: 14px;
  }
  .klienty {
+    margin-top: 94px;
+    width: 1200px;
+    height: 182px;
+    }
+ .klienty-spisok {
     display: flex;
 
  }
+ .klienty-title {
+    font-size: 36px;
+    line-height: 42px;
+    text-align: center;
+    font-weight: bold;
+}
  .ya {
     content: url(../img/YACO.svg);
     width: 175px;
     height: 90px;
-    
+    border: 1px solid #AFB1B8;
+    border-radius: 4px;
  }
  .tagline {
     content: url(../img/tagline.svg);
     width: 175px;
     height: 90px;
     margin-left: 30px;
+    border: 1px solid #AFB1B8;
+    border-radius: 4px;
  }
  .company {
     width: 175px;
     height: 90px;
     content: url(../img/company.svg);
     margin-left: 30px;
+    border: 1px solid #AFB1B8;
+    border-radius: 4px;
  }
  .foster{
     width: 175px;
     height: 90px;
     content: url(../img/foster.svg);
     margin-left: 30px;
+    border: 1px solid #AFB1B8;
+    border-radius: 4px;
  }
  .brand{
     width: 175px;
     height: 90px;
     content: url(../img/brand.svg);
     margin-left: 30px;
+    border: 1px solid #AFB1B8;
+    border-radius: 4px;
  }
  .tag {
     width: 175px;
     height: 90px;
     content: url(../img/tag.svg);
-    border: 1px;
     margin-left: 30px;
+    border: 1px solid #AFB1B8;
+    border-radius: 4px;
  }
+ .footer {
+    width: 1600px;
+    height: 253px;
+    background: #2F303A;
+    margin-left: -200px;
+    display: flex;
+    color: #FFFFFF;
+    padding-top: 56px;
+ }
+ .logos-footer {
+    font-size: 22px;
+    line-height: 26px;
+    color: #FFFFFF;
+    padding-right: 310px;
+ }
+ .address-titel {
+    padding-bottom: 10px;
+    margin-left: 200px;
+ }
+ .address-name {
+    font-size: 14px;
+    line-height: 24px;
+    color: #FFFFFF;
+    letter-spacing: 0.03em;
+ }
+ .address-info {
+    font-size: 14px;
+    line-height: 24px;
+    letter-spacing: 0.03em;
+    color: rgba(255, 255, 255, 0.6);
+    text-decoration: none;
+ }
+ .social-links-foot {
+    display: flex;
+    padding-left: -50px;    
+}
+ .link-instagram .link-twitter 
+ .link-facebook .link-linkedin{
+    color: #AFB1B8;
+  }
+  .link-instagram .link-twitter 
+  .link-facebook .link-linkedin .social-links:focus {
+    color: #2196F3;
+}
+.link-instagram .link-twitter .link-facebook .link-linkedin .social-links:active {
+  color: red;
+  }
+  
+  .komand .link-ist :focus,
+  .komand .link-ist :hover {
+    color: #221199;
+  }
+    .komand .link-ist :active{
+    color: red;
+}
+.social-linka .link {
+    color: teal;
+  }
+  
+  .social-linka .link:hover,
+  .social-linka .link:focus {
+    color: orange;
+  }
+  
+  .social-linka .link:active {
+    color: red;
+  }
